@@ -1,0 +1,57 @@
+// font weight
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 600;
+
+// font size
+$h1-font-size: 48px;
+$h2-font-size: 32px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+
+// borders
+$border-radius: 12px;
+$border-radius-sm: 8px;
+$border-radius-lg: 26px;
+
+$modal-content-border-radius: 12px;
+// buttons
+$btn-font-size: 15px;
+$btn-padding-x: 16px;
+$btn-border-radius: 12px;
+$btn-font-weight: $font-weight-bolder;
+
+$btn-font-size-sm: 16px;
+$btn-padding-y-sm: 3px;
+$btn-padding-x-sm: 12px;
+$btn-border-radius-sm: 12px;
+
+// colors
+$body-bg: #fff;
+$body-color: #2b2e35;
+$primary: #4b69ff;
+$secondary: #5e98d9;
+$red: #eb4b4b;
+$green: rgba(#4eeb4b, 0.5);
+$orange: #f59d21;
+$light: #f8f8f8;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 575px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1040px,
+  xxl: 1097px,
+);
+
+$grid-gutter-width: 24px !default;
